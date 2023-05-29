@@ -5,10 +5,10 @@ using namespace std;
 
 
 int main() {
-	DynamicArray array1{25};
+	DynamicArray array1{ 25 };
 	array1.randomize();
 	array1.show();
 
-	DynamicArray array2{ array1 };
+	DynamicArray array2 =  array1;
 	array2.show();
 }

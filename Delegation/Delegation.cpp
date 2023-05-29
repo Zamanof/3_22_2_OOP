@@ -72,6 +72,7 @@ public:
 		cout << "Person constructed (Person{name, 0, 0})" << endl;
 	}
 
+
 	Person(const char* name, uint16_t age): Person{name, age, 0}
 	{
 		cout << "Person constructed (Person{name, age, 0})" << endl;
@@ -89,5 +90,5 @@ public:
 
 
 int main() {
-	/*Person person{"Nadir"};*/
+	Person person{ "Nadir"};
 }
