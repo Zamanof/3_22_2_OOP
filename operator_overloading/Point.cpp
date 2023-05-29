@@ -12,3 +12,4 @@ void Point::read() {
 	cin.ignore(1);
 	cin >> y;
 }
+
