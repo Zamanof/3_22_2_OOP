@@ -13,9 +13,13 @@ int main() {
 	(--point3).show();
 	point3.show();*/
 
-	Point p1{ 0, 0 };
+	Point p1{ 0, 1 };
 	Point p2{ 1, 1 };
 
-	Point p3 = p1++ + p2;
-	p3.show();
+	/*Point p3 = p1++ + p2;
+	p3.show();*/
+
+	/*cout << boolalpha << (p1 < p2) << endl;*/
+	cin >> p1;
+	cout << !p1 << endl;
 }
