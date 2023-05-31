@@ -38,7 +38,9 @@ public:
 	}
 
 	friend ostream& operator<<(ostream& output, const Human& Human) {
-		output <<"Name: " << Human.name <<" Lastname: " <<Human.lastname << " (" << Human.age << ")";
+		output	<<"Name: " << Human.name 
+				<<" Lastname: " <<Human.lastname 
+				<< " (" << Human.age << ")";
 		return output;
 	}
 	friend istream& operator>>(istream& input, Human& Human) {
