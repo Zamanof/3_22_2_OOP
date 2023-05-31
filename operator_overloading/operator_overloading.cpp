@@ -21,5 +21,5 @@ int main() {
 
 	/*cout << boolalpha << (p1 < p2) << endl;*/
 	cin >> p1;
-	cout << !p1 << endl;
+	cout << p1 << endl;
 }

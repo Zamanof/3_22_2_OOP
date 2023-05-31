@@ -33,6 +33,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "with_copy_constructor", "wi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "operator_overloading", "operator_overloading\operator_overloading.vcxproj", "{E5B8213B-763A-436C-9D19-16D30DD12F30}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 6", "Lesson 6", "{94143F6A-554F-44E5-866E-967BB70174AD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Human overloading", "Human overloading\Human overloading.vcxproj", "{37A808E6-4622-4407-9272-257214597F13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -121,6 +125,14 @@ Global
 		{E5B8213B-763A-436C-9D19-16D30DD12F30}.Release|x64.Build.0 = Release|x64
 		{E5B8213B-763A-436C-9D19-16D30DD12F30}.Release|x86.ActiveCfg = Release|Win32
 		{E5B8213B-763A-436C-9D19-16D30DD12F30}.Release|x86.Build.0 = Release|Win32
+		{37A808E6-4622-4407-9272-257214597F13}.Debug|x64.ActiveCfg = Debug|x64
+		{37A808E6-4622-4407-9272-257214597F13}.Debug|x64.Build.0 = Debug|x64
+		{37A808E6-4622-4407-9272-257214597F13}.Debug|x86.ActiveCfg = Debug|Win32
+		{37A808E6-4622-4407-9272-257214597F13}.Debug|x86.Build.0 = Debug|Win32
+		{37A808E6-4622-4407-9272-257214597F13}.Release|x64.ActiveCfg = Release|x64
+		{37A808E6-4622-4407-9272-257214597F13}.Release|x64.Build.0 = Release|x64
+		{37A808E6-4622-4407-9272-257214597F13}.Release|x86.ActiveCfg = Release|Win32
+		{37A808E6-4622-4407-9272-257214597F13}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -136,6 +148,7 @@ Global
 		{26C70DAA-9DB1-417A-94E7-CF303FCF0FFD} = {E09918F7-ADBD-4C0F-B65D-7AEC6C69CD06}
 		{8634C1E3-B393-4B1F-A537-B19959CED8D2} = {697CD336-0912-46EA-8853-A96248CA8AA7}
 		{E5B8213B-763A-436C-9D19-16D30DD12F30} = {697CD336-0912-46EA-8853-A96248CA8AA7}
+		{37A808E6-4622-4407-9272-257214597F13} = {94143F6A-554F-44E5-866E-967BB70174AD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81F768DC-A980-4557-B13E-B37E2A568E77}
