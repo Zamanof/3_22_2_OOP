@@ -4,15 +4,15 @@
 using namespace std;
 
 int main() {
-/*
-	Dynamic data structure:
-		 - List (Linked, Double Linked)
-		 - Stack LIFO
-		 - Queues FIFO
-		 - Trees
-		 - Graphs
-		 - Hash tables
-*/
+	/*
+		Dynamic data structure:
+			 - List (Linked, Double Linked)
+			 - Stack LIFO
+			 - Queues FIFO
+			 - Trees
+			 - Graphs
+			 - Hash tables
+	*/
 
 	cout << "Linked list" << endl << endl;
 	LinkedList<int> list;
