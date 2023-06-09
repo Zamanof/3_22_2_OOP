@@ -34,4 +34,8 @@ int main() {
 	list.print();
 	list.clear();
 	list.print();
+	list.addAfter(135, node);
+	list.print();
+	list.clear();
+	list.print();
 }
