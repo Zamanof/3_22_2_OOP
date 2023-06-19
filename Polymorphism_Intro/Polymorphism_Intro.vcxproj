@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{102AED62-2881-4026-BA94-09BF094BA4A6}</ProjectGuid>
-    <RootNamespace>Inheritanceaccess</RootNamespace>
+    <ProjectGuid>{6861bbeb-f08c-4a71-a5e2-02fa5ab7d3d1}</ProjectGuid>
+    <RootNamespace>PolymorphismIntro</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Inheritance_access.cpp" />
+    <ClCompile Include="Plymorphism_intro.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
