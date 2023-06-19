@@ -59,20 +59,16 @@ public:
 //	cat.Sound();
 //}
 
-//void info(Animal* animal) {
-//	cout << "This is " << animal->name << endl;
-//	animal->Sound();
-//}
-//
-//void info(Animal& animal) {
-//	cout << "This is " << animal.name << endl;
-//	animal.Sound();
-//}
+void info(Animal* animal) {
+	cout << "This is " << animal->name << endl;
+	animal->Sound();
+}
 
-void info(Animal animal) {
+void info(Animal& animal) {
 	cout << "This is " << animal.name << endl;
 	animal.Sound();
 }
+
 
 int main() {
 	/*cout << foo(2, 5) << endl;
