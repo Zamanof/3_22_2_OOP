@@ -35,7 +35,7 @@ public:
 class Dog : public Animal {
 public:
 	int age;
-	void Sound() override {
+	void Sound() override{
 		cout << name << " Gaw gaw" << endl;
 	}
 };
@@ -43,11 +43,18 @@ public:
 class Cat : public Animal {
 public:
 	float price;
-	void Sound() override {
+	virtual void Sound(){
 		cout << name << " Meow meow" << endl;
 	}
 };
 
+
+class CheshirCat : public Cat{
+public:
+	void Sound() override{
+		cout << name << " Smile" << endl;
+	}
+};
 
 //void info(Dog dog) {
 //	cout << "This is " << dog.name << endl;
@@ -95,7 +102,7 @@ int main() {
 	cat2->name = "Alexander";
 	Animal* dog2 = new Dog();
 	dog2->name = "Innokentiy";
-
+	cat1.Sound();
 	/*dog1.Sound();
 	cat1.Sound();
 	cat2->Sound();
@@ -103,8 +110,10 @@ int main() {
 
 	//info(&cat);
 	//info(&dog);
+	CheshirCat chCat;
+	chCat.name = "Cheshir cat";
 
-	info(cat);
+	info(chCat);
 	
 	
 

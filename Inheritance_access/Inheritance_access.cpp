@@ -45,5 +45,5 @@ int main() {
 	derived.fooProtected();*/
 	/*GrandChild grand;*/
 	/*grand.fooPublic();*/
-	B a;
+	/*B a;*/
 }
