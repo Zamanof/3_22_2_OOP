@@ -6,6 +6,7 @@ public:
 	string name;
 	// Pure virtual method
 	virtual void Sound() = 0;
+	
 };
 
 class Dog : public Animal {
@@ -42,5 +43,5 @@ void info(Animal& animal) {
 	animal.Sound();
 }
 int main() {
-	
+	CheshirCat cat;
 }
