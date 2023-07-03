@@ -89,7 +89,6 @@ int main() {
 	}
 	catch(int ex) {
 		cout << "Exception catched in main" << endl;
-
 	}
 	cout << "End of code" << endl;
 }
