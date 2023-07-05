@@ -1,4 +1,5 @@
 #include<iostream>
+#include<typeinfo>
 
 using namespace std;
 
@@ -46,9 +47,34 @@ public:
 
 void someFunc(Animal* animal) {
 	animal->Sound();
-	Cat* cat = dynamic_cast<Cat*> (animal);
-	if (cat != nullptr)	cat->fooCat();
 
+	Cat* cat = dynamic_cast<Cat*> (animal);
+	if (cat != nullptr) {
+		cat->fooCat();
+	}
+	Dog* dog = dynamic_cast<Dog*> (animal);
+	if (dog != nullptr) {
+		dog->fooDog();
+	}
+	CheshireCat* che = dynamic_cast<CheshireCat*> (animal);
+	if (che != nullptr) {
+		che->fooCheshireCat();
+	}
+
+}
+
+void someFuncTypeId(Animal* animal) {
+	animal->Sound();
+	const type_info& type = typeid(*animal);
+	if (type == typeid(Cat)) {
+		((Cat*)(animal))->fooCat();
+	}
+	if (type == typeid(Dog)) {
+		static_cast<Dog*>(animal)->fooDog();
+	}
+	if (type == typeid(CheshireCat)) {
+		static_cast<CheshireCat*>(animal)->fooCheshireCat();
+	}
 }
 
 void someFuncRef(Animal& animal) {
@@ -57,10 +83,10 @@ void someFuncRef(Animal& animal) {
 		Cat& cat = dynamic_cast<Cat&> (animal);
 		cat.fooCat();
 	}
-	catch(bad_cast cast) {
+	catch (bad_cast cast) {
 		cout << "Invalid cast" << endl;
 	}
-	
+
 
 }
 
@@ -70,9 +96,13 @@ int main() {
 	Dog dog;
 	CheshireCat cheCat;
 	Animal animal;
-	/*someFunc(&cat);*/
-	/*someFunc(&dog);
+	/*someFunc(&cat);
+	someFunc(&dog);
 	someFunc(&cheCat);*/
 	/*someFunc(&animal);*/
-	someFuncRef(dog);
+	/*someFuncRef(dog);*/
+
+	someFuncTypeId(&cat);
+	someFuncTypeId(&cheCat);
+	someFuncTypeId(&dog);
 }
