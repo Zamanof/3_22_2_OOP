@@ -143,6 +143,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Array to file", "Array to f
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "class object to file", "class object to file\class object to file.vcxproj", "{BEF0AA67-D842-450C-8BC4-89C194F3E9F3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 21", "Lesson 21", "{F51ECDB7-49D0-4A74-BF37-F1FA507A221E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Smart_pointers", "Smart_pointers\Smart_pointers.vcxproj", "{8128872A-21E0-4321-902D-7053BB184F7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -645,6 +649,18 @@ Global
 		{BEF0AA67-D842-450C-8BC4-89C194F3E9F3}.Release|x64.Build.0 = Release|x64
 		{BEF0AA67-D842-450C-8BC4-89C194F3E9F3}.Release|x86.ActiveCfg = Release|Win32
 		{BEF0AA67-D842-450C-8BC4-89C194F3E9F3}.Release|x86.Build.0 = Release|Win32
+		{8128872A-21E0-4321-902D-7053BB184F7C}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{8128872A-21E0-4321-902D-7053BB184F7C}.Debug|Any CPU.Build.0 = Debug|x64
+		{8128872A-21E0-4321-902D-7053BB184F7C}.Debug|x64.ActiveCfg = Debug|x64
+		{8128872A-21E0-4321-902D-7053BB184F7C}.Debug|x64.Build.0 = Debug|x64
+		{8128872A-21E0-4321-902D-7053BB184F7C}.Debug|x86.ActiveCfg = Debug|Win32
+		{8128872A-21E0-4321-902D-7053BB184F7C}.Debug|x86.Build.0 = Debug|Win32
+		{8128872A-21E0-4321-902D-7053BB184F7C}.Release|Any CPU.ActiveCfg = Release|x64
+		{8128872A-21E0-4321-902D-7053BB184F7C}.Release|Any CPU.Build.0 = Release|x64
+		{8128872A-21E0-4321-902D-7053BB184F7C}.Release|x64.ActiveCfg = Release|x64
+		{8128872A-21E0-4321-902D-7053BB184F7C}.Release|x64.Build.0 = Release|x64
+		{8128872A-21E0-4321-902D-7053BB184F7C}.Release|x86.ActiveCfg = Release|Win32
+		{8128872A-21E0-4321-902D-7053BB184F7C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -700,6 +716,7 @@ Global
 		{76C320B3-5F45-47D6-B6B8-8AF170A3DC75} = {0781AA07-9A7D-485A-B4DA-122AD7DC1663}
 		{A71AE715-3345-4ED5-8A35-86788B47B654} = {6F7E8930-0F85-4961-8863-ECF0A8A13E42}
 		{BEF0AA67-D842-450C-8BC4-89C194F3E9F3} = {6F7E8930-0F85-4961-8863-ECF0A8A13E42}
+		{8128872A-21E0-4321-902D-7053BB184F7C} = {F51ECDB7-49D0-4A74-BF37-F1FA507A221E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81F768DC-A980-4557-B13E-B37E2A568E77}
