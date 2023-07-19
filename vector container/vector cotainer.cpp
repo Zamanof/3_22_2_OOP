@@ -33,8 +33,27 @@ int main() {
 	cout << vec[1] << endl;*/
 
 	/*vec.empty();*/
-	vector < vector<int>> vectorRoot;
+	/*vector < vector<int>> vectorRoot;
 	vector<int> vectorChild{2, 3};
 	vectorRoot.push_back(vectorChild);
 	cout << vectorRoot[0][1] << endl;
+
+	vectorRoot.shrink_to_fit();*/
+
+	/*vector<int>::reverse_iterator r_itera = vec.rbegin();
+
+	for (size_t i = 0; i < vec.size(); i++)
+	{
+		cout << *(r_itera++) << endl;
+	}*/
+
+	vector<int>::iterator itera = vec.begin();
+	vec.insert(itera + 5, 15);
+
+	for ( itera = vec.begin(); itera < vec.end(); itera++)
+	{
+		cout << *itera << ' ';
+	}
+	cout << '\n';
+
 }
